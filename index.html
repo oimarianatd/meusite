@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro site</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0d1117;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 60px 20px;
+            background: #161b22;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #c9d1d9;
+            line-height: 1.6;
+        }
+
+        .botao {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 25px;
+            background: #238636;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .conteudo {
+            padding: 50px 20px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .card {
+            width: 250px;
+            padding: 25px;
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+        }
+
+        .card h2 {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            padding: 25px;
+            color: #8b949e;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🐙 Meu primeiro site</h1>
+
+        <p>
+            Este site foi publicado utilizando o GitHub Pages.
+        </p>
+
+        <a class="botao" href="https://github.com/" target="_blank">
+            Conheça o GitHub
+        </a>
+    </header>
+
+    <section class="conteudo">
+
+        <h2>O que é o GitHub Pages?</h2>
+
+        <p>
+            É uma ferramenta que permite publicar sites diretamente
+            a partir de um repositório do GitHub.
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+                <h2>💻 HTML</h2>
+                <p>Estrutura e conteúdo da página.</p>
+            </div>
+
+            <div class="card">
+                <h2>🎨 CSS</h2>
+                <p>Visual, cores e organização do site.</p>
+            </div>
+
+            <div class="card">
+                <h2>🌐 Pages</h2>
+                <p>Publicação do site na internet.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        Site criado para demonstração do GitHub Pages.
+    </footer>
+
+</body>
+</html>
